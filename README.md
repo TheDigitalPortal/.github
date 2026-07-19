@@ -1,4 +1,4 @@
-# 🌐 The Digital Portal
+#  The Digital Portal
 ### **www.thedigitalportal.net**
 
 > **Connecting Healthcare Networks: Seamless Integration for Pharmacies, Distributors, and Manufacturers.**
@@ -72,42 +72,5 @@ As part of our commitment to digitalizing the healthcare industry, **The Digital
 *   **🏥 Hospital & Clinic Management Systems (HMS)**: Automated patient scheduling, electronic health records (EHR), and billing software for private clinics and multi-specialty hospitals.
 *   **🔬 Laboratory Information Systems (LIS)**: Seamless barcode tracking, analyzer integrations, and secure patient report distribution portals.
 *   **📱 Patient Companion Apps**: Telemedicine consultation systems, digital prescription tracking, and direct pharmacy network integration for patients.
-
----
-
-## 💻 Developer Guide (Local Setup)
-
-### Prerequisites
-*   Node.js (v18+)
-*   Firebase Project (Firestore & Authentication)
-
-### Installation
-1.  **Clone the Repository**
-    ```bash
-    git clone https://github.com/your-repo/thedigitalportal.git
-    cd thedigitalportal/HABIBATD
-    ```
-2.  **Install Dependencies**
-    ```bash
-    npm install
-    ```
-3.  **Environment Setup**
-    Create a `.env` or `firebase-applet-config.json` containing your Firebase Web App credentials.
-4.  **Run Development Server**
-    ```bash
-    npm run dev
-    ```
-
----
-
-## 🚀 Vercel Deployment Instructions
-
-The project is preconfigured for deployment to **Vercel** as a single-page application (SPA).
-
-1.  Import your repository into Vercel.
-2.  The framework preset will automatically detect **Vite**.
-3.  Vercel will use the configurations defined in `vercel.json` to route all traffic to `index.html`.
-4.  Verify that your Firebase configuration file (`firebase-applet-config.json`) is correctly initialized in the production environment.
-
 ---
 © 2026 The Digital Portal. All rights reserved.
